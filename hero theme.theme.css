@@ -1,10 +1,72 @@
 /**
-* @name Heroic
+* @name nice theme
 * @author Heroic!!
 * @version 1.0
-* @invite no
 * @description epic theme i made for fun.
-* @source https://github.com/GoldenLys/BetterDiscord-Elysia
-* @website https://goldenlys.github.io/ThemeGen
-* @authorLink https://github.com/GoldenLys
+* @source https://github.com/Heroikk/BetterDiscord-nicetheme
 */
+
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/aerobase.css"); /*DO NOT REMOVE THIS*/
+
+
+/*nice font*/
+@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+
+
+:root {
+	--title: "Discord";
+	--font: "Quicksand", sans-serif;
+	--background: url("https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&w=1000&q=80");
+	--logo: url("https://media.discordapp.net/attachments/706543726868299850/741335123210797086/kisspng-discord-computer-icons-teamspeak-logo-chat-room-logo-5ae0cad9b685b7.0678409915246814337476.png?width=460&height=460");
+	--Primary: rgb(130, 0, 216);
+    --animation: var(--Primary), rgb(0, 225, 255);
+    --time: 5s;
+    --ServerSize: 45px;	
+
+    /*Status config*/
+    --Online: rgb(0, 255, 136);
+    --Idle: rgb(0, 99, 156);
+    --Unavailable: rgb(228, 15, 0);
+    --Offline: rgb(90, 95, 100);
+    
+    /*Profile headers*/
+    --Playing: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&w=1000&q=80");
+    --Xbox: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&w=1000&q=80");
+    --Spotify: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&w=1000&q=80");
+    --Streaming: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&w=1000&q=80");
+
+    /*Menu colours*/
+    --grey: rgb(77, 70, 85);
+    --grey5: rgba(77, 70, 85, .5);
+    --darkgrey: rgb(18, 18, 18);
+    --darkgrey5: rgba(18, 18, 18, .75);
+    --TitleBG: var(--darkgrey5);
+    --ChatBox: var(--darkgrey5);
+    --Sidebar: var(--darkgrey5);
+    --SendMessage: var(--darkgrey);
+    --HoverMessage: var(--darkgrey5);
+
+    /*Custom txt*/
+    --JoinUs: "join server or poopoo!";
+    --AddNewServer: "➕ New server?";
+    --ProfilePic: "info";
+    --Close: "×";
+    --Resize: "➕";
+    --Hide: "➖";
+    --Unread: "✨";
+    --Options: "⚙️";
+    --Emoji: "🙂";
+    --EmojiHover: "😜";
+    --Channel: "💬";
+    --Voice: "🔊";
+    --Community: "epic people";
+    --WelcomeMessage: "epic theme by her0ic";
+    --Watermark: "made by her0ic";
+    --EditStatus: "put another status lmao";
+    --Folders: "📁";
+    --FoldersOpen: "💠";
+    --Micro: "🎙️";
+    --Headset: "🎧";
+}	
+
+/*Finished theme*/
